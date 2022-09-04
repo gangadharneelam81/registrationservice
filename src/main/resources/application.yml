@@ -1,0 +1,10 @@
+server:
+  port: 1111
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false #when registerWithEureka is set as false, this is eureka server
+    fetchRegistry: false # for eureka servre, we do'nt need to fetch registry
+    
+    
